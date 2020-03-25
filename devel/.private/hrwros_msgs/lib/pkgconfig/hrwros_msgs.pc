@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/hrwros_msgs
+
+Name: hrwros_msgs
+Description: Description of hrwros_msgs
+Version: 0.0.0
+Cflags: -I/home/lxu9/hrwros_ws/devel/.private/hrwros_msgs/include
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/hrwros_msgs/lib 
+Requires: message_runtime roscpp geometry_msgs std_msgs trajectory_msgs moveit_msgs actionlib_msgs
