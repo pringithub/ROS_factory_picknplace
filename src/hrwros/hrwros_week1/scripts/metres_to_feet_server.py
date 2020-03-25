@@ -24,8 +24,8 @@ def process_service_request(req):
         res.distance_feet = _CONVERSION_FACTOR_METRES_TO_FEET * req.distance_metres
         res.success = True
 
-    for test_idx in range(0,10):
-        rospy.sleep(1)
+#    for test_idx in range(0,10):
+#        rospy.sleep(1)
 
     #Return the response message.
     return res
