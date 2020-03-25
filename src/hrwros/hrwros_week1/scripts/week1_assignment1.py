@@ -12,12 +12,12 @@ from hrwros_msgs.msg import SensorInformation, BoxHeightInformation  # <write-yo
 
 def sensor_info_callback(data, bhi_pub):
 
-    height_box = data.sensor_data.range # <write-your-code-here-Part1>
+    height_box = 2-data.sensor_data.range # <write-your-code-here-Part1>
 
     # Compute the height of the box.
     # Boxes that are detected to be shorter than 10cm are due to sensor noise.
     # Do not publish information about them.
-    if height_box > 1.9: # <write-your-code-here-Part1>:
+    if height_box < 0.1: # <write-your-code-here-Part1>:
         pass
     else:
         # Declare a message object for publishing the box height information.
