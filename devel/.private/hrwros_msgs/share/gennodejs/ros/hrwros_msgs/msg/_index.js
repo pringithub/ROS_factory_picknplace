@@ -11,6 +11,7 @@ let CounterWithDelayAction = require('./CounterWithDelayAction.js');
 let SensorInformation = require('./SensorInformation.js');
 let CounterWithDelayActionFeedback = require('./CounterWithDelayActionFeedback.js');
 let RobotTrajectories = require('./RobotTrajectories.js');
+let BoxHeightInformation = require('./BoxHeightInformation.js');
 let CounterWithDelayFeedback = require('./CounterWithDelayFeedback.js');
 let CounterWithDelayActionGoal = require('./CounterWithDelayActionGoal.js');
 let CounterWithDelayResult = require('./CounterWithDelayResult.js');
@@ -31,6 +32,7 @@ module.exports = {
   SensorInformation: SensorInformation,
   CounterWithDelayActionFeedback: CounterWithDelayActionFeedback,
   RobotTrajectories: RobotTrajectories,
+  BoxHeightInformation: BoxHeightInformation,
   CounterWithDelayFeedback: CounterWithDelayFeedback,
   CounterWithDelayActionGoal: CounterWithDelayActionGoal,
   CounterWithDelayResult: CounterWithDelayResult,

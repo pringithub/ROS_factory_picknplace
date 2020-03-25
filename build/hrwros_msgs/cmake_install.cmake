@@ -134,6 +134,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lxu9/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg"
     "/home/lxu9/hrwros_ws/src/hrwros/hrwros_msgs/msg/RobotTrajectories.msg"
     "/home/lxu9/hrwros_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg"
+    "/home/lxu9/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg"
     )
 endif()
 

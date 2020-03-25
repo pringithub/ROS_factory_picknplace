@@ -13,6 +13,7 @@ add_message_files(DIRECTORY msg
   TargetToolPoses.msg
   RobotTrajectories.msg
   SensorInformation.msg
+  BoxHeightInformation.msg
 )
 
 ## Generate messages in the 'srv' folder

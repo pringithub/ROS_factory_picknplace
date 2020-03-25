@@ -9,6 +9,8 @@
                :std_msgs-msg
 )
   :components ((:file "_package")
+    (:file "BoxHeightInformation" :depends-on ("_package_BoxHeightInformation"))
+    (:file "_package_BoxHeightInformation" :depends-on ("_package"))
     (:file "CounterWithDelayAction" :depends-on ("_package_CounterWithDelayAction"))
     (:file "_package_CounterWithDelayAction" :depends-on ("_package"))
     (:file "CounterWithDelayAction" :depends-on ("_package_CounterWithDelayAction"))
