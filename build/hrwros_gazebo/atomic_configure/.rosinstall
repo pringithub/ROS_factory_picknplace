@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/setup.sh

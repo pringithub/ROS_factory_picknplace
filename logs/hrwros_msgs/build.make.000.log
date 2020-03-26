@@ -1,147 +1,154 @@
-[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_SensorInformation[0m
-[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayGoal[0m
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayFeedback[0m
 [35m[1mScanning dependencies of target moveit_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionFeedback[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayAction[0m
-[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_SensorInformation[0m
 [  0%] Built target moveit_msgs_generate_messages_lisp
-[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayFeedback[0m
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayAction[0m
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation[0m
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayGoal[0m
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_SensorInformation
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionFeedback
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayFeedback
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_TargetToolPoses[0m
 [35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_RobotTrajectories[0m
-[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_ObjectDetection[0m
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_SensorInformation
 [  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayAction
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation
 [  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayGoal
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionFeedback
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_ObjectDetection[0m
 [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionResult[0m
 [35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionGoal[0m
-[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_ConvertMetresToFeet[0m
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayFeedback
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_RobotTrajectories
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_TargetToolPoses
 [  0%] Built target actionlib_msgs_generate_messages_lisp
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_ObjectDetection
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_TargetToolPoses
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_RobotTrajectories
+[35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_ConvertMetresToFeet[0m
 [35m[1mScanning dependencies of target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayResult[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionResult
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_ObjectDetection
+[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionGoal
 [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
 [  0%] Built target geometry_msgs_generate_messages_py
 [35m[1mScanning dependencies of target moveit_msgs_generate_messages_py[0m
-[  0%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionGoal
-[  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayActionResult
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
 [  0%] Built target _hrwros_msgs_generate_messages_check_deps_ConvertMetresToFeet
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
 [  0%] Built target moveit_msgs_generate_messages_py
-[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target moveit_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
-[  0%] Built target actionlib_msgs_generate_messages_py
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
-[  0%] Built target trajectory_msgs_generate_messages_nodejs
-[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_py
 [  0%] Built target _hrwros_msgs_generate_messages_check_deps_CounterWithDelayResult
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
 [  0%] Built target moveit_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_nodejs
-[  0%] Built target trajectory_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target moveit_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target moveit_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
-[  0%] Built target std_msgs_generate_messages_eus
-[  0%] Built target moveit_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_eus
-[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target moveit_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
 [  0%] Built target actionlib_msgs_generate_messages_eus
-[  0%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target moveit_msgs_generate_messages_cpp
-[  0%] Built target actionlib_msgs_generate_messages_cpp
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
 [35m[1mScanning dependencies of target hrwros_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target hrwros_msgs_generate_messages_py[0m
 [35m[1mScanning dependencies of target hrwros_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target hrwros_msgs_generate_messages_eus[0m
 [  0%] Built target geometry_msgs_generate_messages_cpp
-[  1%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
-[  3%] [34m[1mGenerating Lisp code from hrwros_msgs/ObjectDetection.msg[0m
-[  4%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayAction.msg[0m
-[  6%] [34m[1mGenerating Lisp code from hrwros_msgs/TargetToolPoses.msg[0m
-[  9%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
-[  9%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayActionGoal[0m
-[ 11%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
-[ 12%] [34m[1mGenerating Javascript code from hrwros_msgs/ObjectDetection.msg[0m
-[ 14%] [34m[1mGenerating Javascript code from hrwros_msgs/TargetToolPoses.msg[0m
-[ 15%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayAction.msg[0m
-[ 17%] [34m[1mGenerating Lisp code from hrwros_msgs/SensorInformation.msg[0m
-[ 19%] [34m[1mGenerating Python from MSG hrwros_msgs/ObjectDetection[0m
-[ 20%] [34m[1mGenerating Python from MSG hrwros_msgs/TargetToolPoses[0m
-[ 22%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayAction[0m
-[ 23%] [34m[1mGenerating EusLisp code from hrwros_msgs/ObjectDetection.msg[0m
-[ 25%] [34m[1mGenerating Javascript code from hrwros_msgs/SensorInformation.msg[0m
-[ 26%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
+[35m[1mScanning dependencies of target hrwros_msgs_generate_messages_eus[0m
+[  1%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
+[  2%] [34m[1mGenerating Lisp code from hrwros_msgs/RobotTrajectories.msg[0m
+[  4%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayActionGoal[0m
+[  5%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
+[  7%] [34m[1mGenerating Javascript code from hrwros_msgs/RobotTrajectories.msg[0m
+[  8%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
+[ 10%] [34m[1mGenerating Lisp code from hrwros_msgs/ObjectDetection.msg[0m
+[ 11%] [34m[1mGenerating Python from MSG hrwros_msgs/RobotTrajectories[0m
+[ 13%] [34m[1mGenerating Javascript code from hrwros_msgs/ObjectDetection.msg[0m
+[ 14%] [34m[1mGenerating Python from MSG hrwros_msgs/ObjectDetection[0m
+[ 16%] [34m[1mGenerating EusLisp code from hrwros_msgs/RobotTrajectories.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from hrwros_msgs/TargetToolPoses.msg[0m
+[ 19%] [34m[1mGenerating Javascript code from hrwros_msgs/TargetToolPoses.msg[0m
+[ 20%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayAction.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayAction.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from hrwros_msgs/SensorInformation.msg[0m
+[ 25%] [34m[1mGenerating EusLisp code from hrwros_msgs/ObjectDetection.msg[0m
+[ 26%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
+[ 27%] [34m[1mGenerating EusLisp code from hrwros_msgs/TargetToolPoses.msg[0m
+[ 29%] [34m[1mGenerating Python from MSG hrwros_msgs/TargetToolPoses[0m
+[ 30%] [34m[1mGenerating Lisp code from hrwros_msgs/SensorInformation.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from hrwros_msgs/BoxHeightInformation.msg[0m
+[ 33%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayResult.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayAction.msg[0m
+[ 36%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
+[ 38%] [34m[1mGenerating EusLisp code from hrwros_msgs/SensorInformation.msg[0m
 [35m[1mScanning dependencies of target hrwros_msgs_generate_messages_cpp[0m
-[ 28%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
-[ 30%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
-[ 33%] [34m[1mGenerating Lisp code from hrwros_msgs/RobotTrajectories.msg[0m
-[ 33%] [34m[1mGenerating C++ code from hrwros_msgs/ObjectDetection.msg[0m
-[ 34%] [34m[1mGenerating EusLisp code from hrwros_msgs/TargetToolPoses.msg[0m
-[ 36%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayAction.msg[0m
-[ 38%] [34m[1mGenerating Javascript code from hrwros_msgs/RobotTrajectories.msg[0m
-[ 39%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayActionResult[0m
-[ 41%] [34m[1mGenerating Python from MSG hrwros_msgs/SensorInformation[0m
-[ 42%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayResult.msg[0m
-[ 44%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayResult.msg[0m
-[ 46%] [34m[1mGenerating EusLisp code from hrwros_msgs/SensorInformation.msg[0m
+[ 39%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
+[ 41%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayActionGoal.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from hrwros_msgs/BoxHeightInformation.msg[0m
+[ 44%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayAction[0m
+[ 45%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayResult.msg[0m
 [ 47%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
-[ 49%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
-[ 50%] [34m[1mGenerating C++ code from hrwros_msgs/TargetToolPoses.msg[0m
-[ 52%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
-[ 53%] [34m[1mGenerating Python from MSG hrwros_msgs/RobotTrajectories[0m
-[ 55%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayResult[0m
-[ 57%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
-[ 58%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayGoal.msg[0m
-[ 60%] [34m[1mGenerating EusLisp code from hrwros_msgs/RobotTrajectories.msg[0m
-[ 61%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayAction.msg[0m
-[ 63%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
-[ 65%] [34m[1mGenerating Lisp code from hrwros_msgs/ConvertMetresToFeet.srv[0m
-[ 66%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayActionFeedback[0m
-[ 68%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayGoal.msg[0m
-[ 69%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayResult.msg[0m
-[ 69%] Built target hrwros_msgs_generate_messages_lisp
-[ 71%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayFeedback[0m
-[ 74%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayGoal[0m
-[ 74%] [34m[1mGenerating Python code from SRV hrwros_msgs/ConvertMetresToFeet[0m
-[ 77%] [34m[1mGenerating Javascript code from hrwros_msgs/ConvertMetresToFeet.srv[0m
-[ 77%] [34m[1mGenerating C++ code from hrwros_msgs/SensorInformation.msg[0m
-[ 79%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
-[ 79%] Built target hrwros_msgs_generate_messages_nodejs
-[ 80%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
-[ 82%] [34m[1mGenerating C++ code from hrwros_msgs/RobotTrajectories.msg[0m
-[ 84%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
-[ 85%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayGoal.msg[0m
-[ 87%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayResult.msg[0m
-[ 88%] [34m[1mGenerating Python msg __init__.py for hrwros_msgs[0m
-[ 90%] [34m[1mGenerating EusLisp code from hrwros_msgs/ConvertMetresToFeet.srv[0m
-[ 92%] [34m[1mGenerating EusLisp manifest code for hrwros_msgs[0m
-[ 93%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
-[ 95%] [34m[1mGenerating Python srv __init__.py for hrwros_msgs[0m
-[ 96%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
-[ 98%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayGoal.msg[0m
-[100%] [34m[1mGenerating C++ code from hrwros_msgs/ConvertMetresToFeet.srv[0m
+[ 48%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from hrwros_msgs/CounterWithDelayGoal.msg[0m
+[ 51%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
+[ 52%] [34m[1mGenerating Javascript code from hrwros_msgs/ConvertMetresToFeet.srv[0m
+[ 54%] [34m[1mGenerating C++ code from hrwros_msgs/RobotTrajectories.msg[0m
+[ 55%] [34m[1mGenerating EusLisp code from hrwros_msgs/BoxHeightInformation.msg[0m
+[ 57%] [34m[1mGenerating Python from MSG hrwros_msgs/SensorInformation[0m
+[ 58%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
+[ 58%] Built target hrwros_msgs_generate_messages_nodejs
+[ 60%] [34m[1mGenerating C++ code from hrwros_msgs/ObjectDetection.msg[0m
+[ 61%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayResult.msg[0m
+[ 63%] [34m[1mGenerating Lisp code from hrwros_msgs/CounterWithDelayGoal.msg[0m
+[ 64%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
+[ 66%] [34m[1mGenerating Lisp code from hrwros_msgs/ConvertMetresToFeet.srv[0m
+[ 67%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
+[ 69%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayActionResult[0m
+[ 70%] [34m[1mGenerating C++ code from hrwros_msgs/TargetToolPoses.msg[0m
+[ 72%] [34m[1mGenerating EusLisp code from hrwros_msgs/CounterWithDelayGoal.msg[0m
+[ 72%] Built target hrwros_msgs_generate_messages_lisp
+[ 73%] [34m[1mGenerating EusLisp code from hrwros_msgs/ConvertMetresToFeet.srv[0m
+[ 75%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayAction.msg[0m
+[ 76%] [34m[1mGenerating EusLisp manifest code for hrwros_msgs[0m
+[ 77%] [34m[1mGenerating Python from MSG hrwros_msgs/BoxHeightInformation[0m
+[ 79%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayResult[0m
+[ 80%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayActionFeedback[0m
+[ 82%] [34m[1mGenerating C++ code from hrwros_msgs/SensorInformation.msg[0m
+[ 83%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayActionResult.msg[0m
+[ 85%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayFeedback[0m
+[ 86%] [34m[1mGenerating C++ code from hrwros_msgs/BoxHeightInformation.msg[0m
+[ 88%] [34m[1mGenerating Python from MSG hrwros_msgs/CounterWithDelayGoal[0m
+[ 89%] [34m[1mGenerating Python code from SRV hrwros_msgs/ConvertMetresToFeet[0m
+[ 91%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayResult.msg[0m
+[ 92%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayActionFeedback.msg[0m
+[ 94%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayFeedback.msg[0m
+[ 95%] [34m[1mGenerating C++ code from hrwros_msgs/CounterWithDelayGoal.msg[0m
+[ 97%] [34m[1mGenerating Python msg __init__.py for hrwros_msgs[0m
+[ 98%] [34m[1mGenerating C++ code from hrwros_msgs/ConvertMetresToFeet.srv[0m
+[100%] [34m[1mGenerating Python srv __init__.py for hrwros_msgs[0m
 [100%] Built target hrwros_msgs_generate_messages_py
 [100%] Built target hrwros_msgs_generate_messages_cpp
 [100%] Built target hrwros_msgs_generate_messages_eus

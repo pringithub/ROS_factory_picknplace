@@ -4,6 +4,7 @@ Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/CounterWithDelayAction
 Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/CounterWithDelayActionFeedback.h
 Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/ConvertMetresToFeet.h
 Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/SensorInformation.h
+Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/BoxHeightInformation.h
 Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/ConvertMetresToFeetRequest.h
 Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/CounterWithDelayFeedback.h
 Symlinking /home/lxu9/hrwros_ws/devel/include/hrwros_msgs/RobotTrajectories.h
@@ -20,6 +21,7 @@ Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/ms
 Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_RobotTrajectories.py
 Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionResult.py
 Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionGoal.py
+Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_BoxHeightInformation.py
 Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayFeedback.py
 Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/__init__.py
 Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_ObjectDetection.py
@@ -33,6 +35,7 @@ Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/srv/ConvertMe
 Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayFeedback.l
 Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionFeedback.l
 Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayResult.l
+Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/BoxHeightInformation.l
 Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/SensorInformation.l
 Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/RobotTrajectories.l
 Symlinking /home/lxu9/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionResult.l
@@ -56,6 +59,7 @@ Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/_index.js
 Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/srv/_index.js
 Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/srv/ConvertMetresToFeet.js
 Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayResult.js
+Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/BoxHeightInformation.js
 Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/RobotTrajectories.js
 Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayAction.js
 Symlinking /home/lxu9/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/TargetToolPoses.js
@@ -81,8 +85,10 @@ Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_pac
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package.lisp
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_TargetToolPoses.lisp
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayGoal.lisp
+Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_BoxHeightInformation.lisp
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/hrwros_msgs-msg.asd
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayFeedback.lisp
+Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/BoxHeightInformation.lisp
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayActionResult.lisp
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/CounterWithDelayGoal.lisp
 Symlinking /home/lxu9/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/TargetToolPoses.lisp

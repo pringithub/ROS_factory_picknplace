@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/install
+
+Name: hrwros_gazebo
+Description: Description of hrwros_gazebo
+Version: 0.1.0
+Cflags: -I/home/lxu9/hrwros_ws/install/include -I/usr/include
+Libs: -L/home/lxu9/hrwros_ws/install/lib -lconveyor_spawner -lurdf_creator /usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: gazebo_msgs gazebo_plugins gazebo_ros geometry_msgs message_runtime roscpp std_msgs std_srvs tf
