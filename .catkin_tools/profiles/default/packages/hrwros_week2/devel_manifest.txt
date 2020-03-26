@@ -1,0 +1,5 @@
+hrwros_week2
+/home/lxu9/hrwros_ws/devel/.private/hrwros_week2/cmake.lock /home/lxu9/hrwros_ws/devel/./cmake.lock
+/home/lxu9/hrwros_ws/devel/.private/hrwros_week2/lib/pkgconfig/hrwros_week2.pc /home/lxu9/hrwros_ws/devel/lib/pkgconfig/hrwros_week2.pc
+/home/lxu9/hrwros_ws/devel/.private/hrwros_week2/share/hrwros_week2/cmake/hrwros_week2Config-version.cmake /home/lxu9/hrwros_ws/devel/share/hrwros_week2/cmake/hrwros_week2Config-version.cmake
+/home/lxu9/hrwros_ws/devel/.private/hrwros_week2/share/hrwros_week2/cmake/hrwros_week2Config.cmake /home/lxu9/hrwros_ws/devel/share/hrwros_week2/cmake/hrwros_week2Config.cmake

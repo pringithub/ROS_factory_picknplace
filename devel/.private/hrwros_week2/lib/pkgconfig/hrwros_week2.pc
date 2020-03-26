@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/hrwros_week2
+
+Name: hrwros_week2
+Description: Description of hrwros_week2
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/hrwros_week2/lib 
+Requires: 

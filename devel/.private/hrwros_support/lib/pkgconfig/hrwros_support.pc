@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/hrwros_support
+
+Name: hrwros_support
+Description: Description of hrwros_support
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/hrwros_support/lib 
+Requires: 

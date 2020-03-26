@@ -25,10 +25,6 @@
   <!-- bins -->
   <xacro:include filename="$(find hrwros_support)/urdf/bin/bin.urdf.xacro"/>
   <xacro:bin_urdf prefix="bin_1_"/>
-  <xacro:bin_urdf prefix="bin_2_"/>
-  <xacro:bin_urdf prefix="bin_3_"/>
-  <xacro:bin_urdf prefix="bin_4_"/>
-  <xacro:bin_urdf prefix="bin_5_"/>
 
   <!-- Joints -->
   <joint name="world_interface_to_world" type="fixed">
@@ -60,34 +56,41 @@
   <joint name="bin_1_joint" type="fixed">
     <parent link="world_interface" />
     <child link="bin_1_base_link" />
-    <origin xyz="-0.3 1.2 0.0" rpy="0 0 0" />
+    <origin xyz="-8.0 -2.2 0.0" rpy="0 0 0" />
   </joint>
 
-  <!-- bin 2 -->
-  <joint name="bin_2_joint" type="fixed">
-    <parent link="world_interface" />
-    <child link="bin_2_base_link" />
-    <origin xyz="-0.3 0.4 0.0" rpy="0 0 0" />
+
+  <link name="robot2_pedestal_link" >
+    <visual>
+      <origin xyz="0 0 0.3" />
+      <geometry>
+        <box size="0.3 0.3 0.6" />
+      </geometry>
+      <material name="robot2_pedestal_color">
+        <color rgba="0 0.16 0.53 1" />
+      </material>
+    </visual>
+  </link>
+
+
+  <joint name="robot2_pedestal_joint" type="fixed">
+    <parent link="world" />
+    <child link="robot2_pedestal_link" />
+    <origin xyz="-7.8 -1.5 0" />
   </joint>
 
-  <!-- bin 3 -->
-  <joint name="bin_3_joint" type="fixed">
-    <parent link="world_interface" />
-    <child link="bin_3_base_link" />
-    <origin xyz="-0.3 -0.4 0.0" rpy="0 0 0" />
+
+  <!-- Robot2 -->
+  <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro"/>
+  <xacro:ur5_robot prefix="robot2_" joint_limited="true"/>
+  <joint name="robot2-robot2_pedestal_joint" type="fixed">
+    <parent link="robot2_pedestal_link" />
+    <child link="robot2_base_link" />
+    <origin xyz="0 0 0.6" rpy="0 0 ${radians(90)}" />
   </joint>
 
-  <!-- bin 4 -->
-  <joint name="bin_4_joint" type="fixed">
-    <parent link="world_interface" />
-    <child link="bin_4_base_link" />
-    <origin xyz="-0.3 -1.2 0.0" rpy="0 0 0" />
-  </joint>
 
-  <!-- bin 5 -->
-  <joint name="bin_5_joint" type="fixed">
-    <parent link="world_interface" />
-    <child link="bin_5_base_link" />
-    <origin xyz="-0.3 -2.0 0.0" rpy="0 0 0" />
-  </joint>
 </robot>
+
+
+
