@@ -1,0 +1,28 @@
+robot2_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+     - robot2_elbow_joint
+     - robot2_shoulder_lift_joint
+     - robot2_shoulder_pan_joint
+     - robot2_wrist_1_joint
+     - robot2_wrist_2_joint
+     - robot2_wrist_3_joint
+  gains:
+      robot2_elbow_joint: {p: 50000, d: 150, i: 1, i_clamp: 25}
+      robot2_shoulder_lift_joint: {p: 80000, d: 150, i: 10, i_clamp: 50}
+      robot2_shoulder_pan_joint: {p: 10000, d: 150, i: 0, i_clamp: 1}
+      robot2_wrist_1_joint: {p: 100, d: 5, i: 0, i_clamp: 1}
+      robot2_wrist_2_joint: {p: 75, d: 2, i: 0, i_clamp: 1}
+      robot2_wrist_3_joint: {p: 25, d: 1, i: 0, i_clamp: 1}
+  constraints:
+      goal_time: 1.0
+      stopped_velocity_tolerance: 0.05
+      robot2_shoulder_pan_joint: {trajectory: 2.8, goal: 2.0}
+      robot2_shoulder_lift_joint: {trajectory: 2.8, goal: 2.0}
+      robot2_elbow_joint: {trajectory: 2.8, goal: 2.0}
+      robot2_wrist_1_joint: {trajectory: 2.8, goal: 2.0}
+      robot2_wrist_2_joint: {trajectory: 2.8, goal: 2.0}
+      robot2_wrist_3_joint: {trajectory: 2.8, goal: 2.0}
+  stop_trajectory_duration: 0.5
+  state_publish_rate:  50
+  action_monitor_rate: 10
