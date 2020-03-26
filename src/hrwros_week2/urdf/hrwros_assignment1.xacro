@@ -93,6 +93,17 @@
   <!-- Add your solution to assignment 1 here -->
 
 
+  <!-- bins -->
+  <xacro:include filename="$(find hrwros_support)/urdf/bin/bin.urdf.xacro"/>
+  <xacro:bin_urdf prefix="bin_2_"/>
+
+  <!-- bin 1 -->
+  <joint name="bin_2_joint" type="fixed">
+    <parent link="world_interface" />
+    <child link="bin_2_base_link" />
+    <origin xyz="2.5 2.0 0" rpy="0 0 0" />
+  </joint>
+
 
 
 
