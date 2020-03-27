@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config
+# Source directory: /home/lxu9/hrwros_ws/src/hrwros_moveit_config
 # Build directory: /home/lxu9/hrwros_ws/build/hrwros_moveit_config
 # 
 # This file includes the relevant testing commands required for 

@@ -10,4 +10,4 @@
 export CMAKE_PREFIX_PATH="/home/lxu9/hrwros_ws/devel/.private/hrwros_moveit_config:$CMAKE_PREFIX_PATH"
 export PWD="/home/lxu9/hrwros_ws/build/hrwros_moveit_config"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lxu9/hrwros_ws/devel/.private/hrwros_moveit_config/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/lxu9/hrwros_ws/src/hrwros_moveit_config:$ROS_PACKAGE_PATH"

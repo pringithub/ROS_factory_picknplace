@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config
+CMAKE_SOURCE_DIR = /home/lxu9/hrwros_ws/src/hrwros_moveit_config
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lxu9/hrwros_ws/build/hrwros_moveit_config
@@ -162,6 +162,6 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 
 gtest/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/lxu9/hrwros_ws/build/hrwros_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config /usr/src/googletest/googlemock /home/lxu9/hrwros_ws/build/hrwros_moveit_config /home/lxu9/hrwros_ws/build/hrwros_moveit_config/gtest/googlemock /home/lxu9/hrwros_ws/build/hrwros_moveit_config/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lxu9/hrwros_ws/build/hrwros_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lxu9/hrwros_ws/src/hrwros_moveit_config /usr/src/googletest/googlemock /home/lxu9/hrwros_ws/build/hrwros_moveit_config /home/lxu9/hrwros_ws/build/hrwros_moveit_config/gtest/googlemock /home/lxu9/hrwros_ws/build/hrwros_moveit_config/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 

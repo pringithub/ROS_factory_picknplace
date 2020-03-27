@@ -331,7 +331,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 hrwros_moveit_config_BINARY_DIR:STATIC=/home/lxu9/hrwros_ws/build/hrwros_moveit_config
 
 //Value Computed by CMake
-hrwros_moveit_config_SOURCE_DIR:STATIC=/home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config
+hrwros_moveit_config_SOURCE_DIR:STATIC=/home/lxu9/hrwros_ws/src/hrwros_moveit_config
 
 
 ########################
@@ -423,7 +423,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/lxu9/hrwros_ws/src/hrwros_moveit_config
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config
+# Install script for directory: /home/lxu9/hrwros_ws/src/hrwros_moveit_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -140,15 +140,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hrwros_moveit_config" TYPE FILE FILES "/home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hrwros_moveit_config" TYPE FILE FILES "/home/lxu9/hrwros_ws/src/hrwros_moveit_config/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hrwros_moveit_config" TYPE DIRECTORY FILES "/home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hrwros_moveit_config" TYPE DIRECTORY FILES "/home/lxu9/hrwros_ws/src/hrwros_moveit_config/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hrwros_moveit_config" TYPE DIRECTORY FILES "/home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hrwros_moveit_config" TYPE DIRECTORY FILES "/home/lxu9/hrwros_ws/src/hrwros_moveit_config/config")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

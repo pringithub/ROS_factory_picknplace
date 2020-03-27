@@ -67,7 +67,7 @@ set(hrwros_moveit_config_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hrwros_moveit_config_SOURCE_PREFIX /home/lxu9/hrwros_ws/src/hrwros/hrwros_moveit_config)
+  set(hrwros_moveit_config_SOURCE_PREFIX /home/lxu9/hrwros_ws/src/hrwros_moveit_config)
   set(hrwros_moveit_config_DEVEL_PREFIX /home/lxu9/hrwros_ws/devel/.private/hrwros_moveit_config)
   set(hrwros_moveit_config_INSTALL_PREFIX "")
   set(hrwros_moveit_config_PREFIX ${hrwros_moveit_config_DEVEL_PREFIX})
