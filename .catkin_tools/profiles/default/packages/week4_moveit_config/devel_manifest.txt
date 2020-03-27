@@ -1,0 +1,5 @@
+week4_moveit_config
+/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config/cmake.lock /home/lxu9/hrwros_ws/devel/./cmake.lock
+/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config/lib/pkgconfig/week4_moveit_config.pc /home/lxu9/hrwros_ws/devel/lib/pkgconfig/week4_moveit_config.pc
+/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config/share/week4_moveit_config/cmake/week4_moveit_configConfig-version.cmake /home/lxu9/hrwros_ws/devel/share/week4_moveit_config/cmake/week4_moveit_configConfig-version.cmake
+/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config/share/week4_moveit_config/cmake/week4_moveit_configConfig.cmake /home/lxu9/hrwros_ws/devel/share/week4_moveit_config/cmake/week4_moveit_configConfig.cmake

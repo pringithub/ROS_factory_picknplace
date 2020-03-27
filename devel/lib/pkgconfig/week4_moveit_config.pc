@@ -1,0 +1,1 @@
+/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config/lib/pkgconfig/week4_moveit_config.pc

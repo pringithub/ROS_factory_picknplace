@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/install
+
+Name: hrwros_week4
+Description: Description of hrwros_week4
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lxu9/hrwros_ws/install/lib 
+Requires: 

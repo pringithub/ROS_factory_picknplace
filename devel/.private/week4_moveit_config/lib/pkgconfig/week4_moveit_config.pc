@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config
+
+Name: week4_moveit_config
+Description: Description of week4_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/week4_moveit_config/lib 
+Requires: 
