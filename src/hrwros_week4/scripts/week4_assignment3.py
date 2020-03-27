@@ -16,7 +16,7 @@ def week4_assignment3():
   ## Instantiate a MoveGroupCommander object.  This object is an interface
   ## to one group of joints.  In this case the group refers to the joints of
   ## robot2. This interface can be used to plan and execute motions on robot2.
-  robot2_group = moveit_commander.MoveGroupCommander("<write your code here>")
+  robot2_group = moveit_commander.MoveGroupCommander("robot2")
 
   ## Action clients to the ExecuteTrajectory action server.
   robot2_client = actionlib.SimpleActionClient('execute_trajectory',
@@ -25,7 +25,7 @@ def week4_assignment3():
   rospy.loginfo('Execute Trajectory server is available for robot2')
 
   ## Move robot2 to R2Home robot pose with the set_named_target API.
-  robot2_group.set_named_target("<write your code here>")
+  robot2_group.set_named_target("R2Home")
 
   ## Plan to the desired joint-space goal using the default planner (RRTConnect).
   plan = robot2_group.plan()
@@ -38,11 +38,11 @@ def week4_assignment3():
   rospy.loginfo('Go to Home')
 
   ## Send the goal to the action server.
-  robot2_client.send_goal(<write your code here>)
+  robot2_client.send_goal(robot2_goal)
   robot2_client.wait_for_result()
 
   ## Move robot2 to R2PreGrasp pose
-  robot2_group.set_named_target("<write your code here>")
+  robot2_group.set_named_target("R2PreGrasp")
 
   plan = robot2_group.plan()
   robot2_goal = moveit_msgs.msg.ExecuteTrajectoryGoal()
@@ -51,7 +51,7 @@ def week4_assignment3():
   ## Print message
   rospy.loginfo('Go to Pre Grasp')
 
-  robot2_client.send_goal(<write your code here>)
+  robot2_client.send_goal(robot2_goal)
   robot2_client.wait_for_result()
 
   # Pick motions with the compute_cartesian_path API.
@@ -66,24 +66,24 @@ def week4_assignment3():
 
   # Manual offsets because we don't have a camera to detect objects yet.
   # Create an x-offset of -5cm to the current x position.
-  new_robot2_eef_pose.position.x = current_robot2_pose.pose.position.x <write your code here>
+  new_robot2_eef_pose.position.x = current_robot2_pose.pose.position.x - 0.05 #<write your code here>
   # Create a y-offset of +10cm to the current y position.
-  new_robot2_eef_pose.position.y = current_robot2_pose.pose.position.y <write your code here>
+  new_robot2_eef_pose.position.y = current_robot2_pose.pose.position.y + 0.10 #<write your code here>
   # Create a z-offset of -10cm to the current z position.
-  new_robot2_eef_pose.position.z = current_robot2_pose.pose.position.z <write your code here>
+  new_robot2_eef_pose.position.z = current_robot2_pose.pose.position.z - 0.10 #<write your code here>
 
   # Retain orientation of the current pose.
   new_robot2_eef_pose.orientation = copy.deepcopy(current_robot2_pose.pose.orientation)
 
   # Update the list of waypoints.
   # First add the new desired pose of the end effector for robot2.
-  waypoints.append(<write your code here>)
+  waypoints.append(new_robot2_eef_pose)
 
   rospy.loginfo('Cartesian path - Waypoint 1:')
   print(new_robot2_eef_pose.position)
 
   # Then go back to the pose where we started the linear motion from.
-  waypoints.append(<write your code here>)
+  waypoints.append(current_robot2_pose.pose)
 
   rospy.loginfo('Cartesian path - Waypoint 2:')
   print(current_robot2_pose.pose.position)
@@ -107,17 +107,17 @@ def week4_assignment3():
   ## Print message
   rospy.loginfo('Cartesian movement')
 
-  robot2_client.send_goal(<write your code here>)
+  robot2_client.send_goal(robot2_goal)
   robot2_client.wait_for_result()
 
   ## After executing the linear motions, go to the R2Place robot pose using the set_named_target API.
-  robot2_group.set_named_target("<write your code here>")
+  robot2_group.set_named_target("R2Place")
 
   plan = robot2_group.plan()
   robot2_goal = moveit_msgs.msg.ExecuteTrajectoryGoal()
   robot2_goal.trajectory = plan
   rospy.loginfo('Go to Place')
-  robot2_client.send_goal(<write your code here>)
+  robot2_client.send_goal(robot2_goal)
   robot2_client.wait_for_result()
 
   ## When finished shut down moveit_commander.
