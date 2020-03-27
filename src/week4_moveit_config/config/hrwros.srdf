@@ -48,6 +48,38 @@
         <joint name="robot2_wrist_2_joint" value="-1.57" />
         <joint name="robot2_wrist_3_joint" value="0" />
     </group_state>
+    <group_state name="R1PreGrasp" group="robot1">
+        <joint name="robot1_elbow_joint" value="1.57" />
+        <joint name="robot1_shoulder_lift_joint" value="-1.57" />
+        <joint name="robot1_shoulder_pan_joint" value="0.4143" />
+        <joint name="robot1_wrist_1_joint" value="-1.57" />
+        <joint name="robot1_wrist_2_joint" value="-1.57" />
+        <joint name="robot1_wrist_3_joint" value="0" />
+    </group_state>
+    <group_state name="R1Place" group="robot1">
+        <joint name="robot1_elbow_joint" value="1.57" />
+        <joint name="robot1_shoulder_lift_joint" value="-1.57" />
+        <joint name="robot1_shoulder_pan_joint" value="2.87" />
+        <joint name="robot1_wrist_1_joint" value="-1.57" />
+        <joint name="robot1_wrist_2_joint" value="-1.57" />
+        <joint name="robot1_wrist_3_joint" value="0" />
+    </group_state>
+    <group_state name="R2PreGrasp" group="robot2">
+        <joint name="robot2_elbow_joint" value="1.3809" />
+        <joint name="robot2_shoulder_lift_joint" value="-0.8976" />
+        <joint name="robot2_shoulder_pan_joint" value="0.7" />
+        <joint name="robot2_wrist_1_joint" value="-2.0023" />
+        <joint name="robot2_wrist_2_joint" value="-1.6225" />
+        <joint name="robot2_wrist_3_joint" value="0" />
+    </group_state>
+    <group_state name="R2Place" group="robot2">
+        <joint name="robot2_elbow_joint" value="1.3364" />
+        <joint name="robot2_shoulder_lift_joint" value="-1.3017" />
+        <joint name="robot2_shoulder_pan_joint" value="2.6902" />
+        <joint name="robot2_wrist_1_joint" value="-1.6489" />
+        <joint name="robot2_wrist_2_joint" value="-1.6225" />
+        <joint name="robot2_wrist_3_joint" value="0" />
+    </group_state>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="fixed_base1" type="fixed" parent_frame="robot1_base_link" child_link="world" />
     <virtual_joint name="fixed_base2" type="fixed" parent_frame="robot2_base_link" child_link="world" />
