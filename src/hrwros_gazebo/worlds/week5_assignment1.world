@@ -56,6 +56,15 @@
     <!-- Week 5 Assignment1 Part 1 -->
     <!-- Include the two logical camera models here -->
 
+    <include>
+      <uri>model://logical_camera1</uri>
+      <pose>1.2 1.8 2.0 0 1.57 0</pose>
+    </include>
+
+    <include>
+      <uri>model://logical_camera2</uri>
+      <pose>-8.3 -1.23 1.8 0 1.57 0</pose>
+    </include>
 
   </world>
 </sdf>
