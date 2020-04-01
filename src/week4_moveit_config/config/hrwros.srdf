@@ -32,14 +32,6 @@
         <joint name="robot2_wrist_2_joint" value="0" />
         <joint name="robot2_wrist_3_joint" value="0" />
     </group_state>
-    <group_state name="R1Home" group="robot1">
-        <joint name="robot1_elbow_joint" value="1.57" />
-        <joint name="robot1_shoulder_lift_joint" value="-1.57" />
-        <joint name="robot1_shoulder_pan_joint" value="1.24" />
-        <joint name="robot1_wrist_1_joint" value="-1.57" />
-        <joint name="robot1_wrist_2_joint" value="-1.57" />
-        <joint name="robot1_wrist_3_joint" value="0" />
-    </group_state>
     <group_state name="R2Home" group="robot2">
         <joint name="robot2_elbow_joint" value="1.57" />
         <joint name="robot2_shoulder_lift_joint" value="-1.57" />
@@ -48,18 +40,18 @@
         <joint name="robot2_wrist_2_joint" value="-1.57" />
         <joint name="robot2_wrist_3_joint" value="0" />
     </group_state>
-    <group_state name="R1PreGrasp" group="robot1">
+    <group_state name="R1Home" group="robot1">
         <joint name="robot1_elbow_joint" value="1.57" />
         <joint name="robot1_shoulder_lift_joint" value="-1.57" />
-        <joint name="robot1_shoulder_pan_joint" value="0.4143" />
+        <joint name="robot1_shoulder_pan_joint" value="1.24" />
         <joint name="robot1_wrist_1_joint" value="-1.57" />
         <joint name="robot1_wrist_2_joint" value="-1.57" />
         <joint name="robot1_wrist_3_joint" value="0" />
     </group_state>
-    <group_state name="R1Place" group="robot1">
+    <group_state name="R1PreGrasp" group="robot1">
         <joint name="robot1_elbow_joint" value="1.57" />
         <joint name="robot1_shoulder_lift_joint" value="-1.57" />
-        <joint name="robot1_shoulder_pan_joint" value="2.87" />
+        <joint name="robot1_shoulder_pan_joint" value="0.4143" />
         <joint name="robot1_wrist_1_joint" value="-1.57" />
         <joint name="robot1_wrist_2_joint" value="-1.57" />
         <joint name="robot1_wrist_3_joint" value="0" />
@@ -71,6 +63,14 @@
         <joint name="robot2_wrist_1_joint" value="-2.0023" />
         <joint name="robot2_wrist_2_joint" value="-1.6225" />
         <joint name="robot2_wrist_3_joint" value="0" />
+    </group_state>
+    <group_state name="R1Place" group="robot1">
+        <joint name="robot1_shoulder_pan_joint" value="2.86949855063" />
+        <joint name="robot1_shoulder_lift_joint" value="-1.02871589958" />
+        <joint name="robot1_elbow_joint" value="2.13318128771" />
+        <joint name="robot1_wrist_1_joint" value="-2.66723587068" />
+        <joint name="robot1_wrist_2_joint" value="-1.56775127958" />
+        <joint name="robot1_wrist_3_joint" value="0" />
     </group_state>
     <group_state name="R2Place" group="robot2">
         <joint name="robot2_elbow_joint" value="1.3364" />

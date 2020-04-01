@@ -1,136 +1,136 @@
-[35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_ConveyorBeltState[0m
 [35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_Model[0m
+[35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_ConveyorBeltState[0m
+[35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_VacuumGripperControl[0m
 [35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_LogicalCameraImage[0m
 [35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_VacuumGripperState[0m
-[35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_Proximity[0m
-[35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_VacuumGripperControl[0m
 [35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_ConveyorBeltControl[0m
+[35m[1mScanning dependencies of target _hrwros_gazebo_generate_messages_check_deps_Proximity[0m
 [  0%] Built target _hrwros_gazebo_generate_messages_check_deps_VacuumGripperControl
+[  0%] Built target _hrwros_gazebo_generate_messages_check_deps_VacuumGripperState
 [  0%] Built target _hrwros_gazebo_generate_messages_check_deps_LogicalCameraImage
 [  0%] Built target _hrwros_gazebo_generate_messages_check_deps_ConveyorBeltState
-[  0%] Built target _hrwros_gazebo_generate_messages_check_deps_Model
-[  0%] Built target _hrwros_gazebo_generate_messages_check_deps_VacuumGripperState
-[  0%] Built target _hrwros_gazebo_generate_messages_check_deps_Proximity
 [  0%] Built target _hrwros_gazebo_generate_messages_check_deps_ConveyorBeltControl
-[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target _hrwros_gazebo_generate_messages_check_deps_Proximity
+[  0%] Built target _hrwros_gazebo_generate_messages_check_deps_Model
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
 [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
-[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_py
-[  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target ProximityRayPlugin[0m
-[35m[1mScanning dependencies of target SideContactPlugin[0m
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target SideContactPlugin[0m
+[35m[1mScanning dependencies of target ProximityRayPlugin[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
 [35m[1mScanning dependencies of target urdf_creator[0m
 [35m[1mScanning dependencies of target VacuumGripperPlugin[0m
-[  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_cpp
-[  1%] [32mBuilding CXX object CMakeFiles/urdf_creator.dir/src/urdf_creator.cpp.o[0m
-[35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
 [35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_py[0m
+[35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_nodejs[0m
 [35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_lisp[0m
+[  1%] [34m[1mGenerating Python from MSG hrwros_gazebo/ConveyorBeltState[0m
 [  3%] [34m[1mGenerating Javascript code from hrwros_gazebo/ConveyorBeltState.msg[0m
-[  4%] [34m[1mGenerating Python from MSG hrwros_gazebo/ConveyorBeltState[0m
-[  6%] [34m[1mGenerating Lisp code from hrwros_gazebo/ConveyorBeltState.msg[0m
+[  4%] [34m[1mGenerating Lisp code from hrwros_gazebo/ConveyorBeltState.msg[0m
+[  6%] [32mBuilding CXX object CMakeFiles/urdf_creator.dir/src/urdf_creator.cpp.o[0m
 [  7%] [34m[1mGenerating Javascript code from hrwros_gazebo/VacuumGripperState.msg[0m
 [  9%] [34m[1mGenerating Lisp code from hrwros_gazebo/VacuumGripperState.msg[0m
-[ 10%] [32mBuilding CXX object CMakeFiles/ProximityRayPlugin.dir/src/plugins/ProximityRayPlugin.cc.o[0m
-[ 12%] [32mBuilding CXX object CMakeFiles/SideContactPlugin.dir/src/plugins/SideContactPlugin.cc.o[0m
-[ 14%] [32mBuilding CXX object CMakeFiles/VacuumGripperPlugin.dir/src/plugins/VacuumGripperPlugin.cc.o[0m
-[ 15%] [34m[1mGenerating Javascript code from hrwros_gazebo/Proximity.msg[0m
-[ 17%] [34m[1mGenerating Lisp code from hrwros_gazebo/Proximity.msg[0m
-[ 18%] [34m[1mGenerating Python from MSG hrwros_gazebo/VacuumGripperState[0m
-[ 20%] [34m[1mGenerating Javascript code from hrwros_gazebo/LogicalCameraImage.msg[0m
-[ 21%] [34m[1mGenerating Lisp code from hrwros_gazebo/LogicalCameraImage.msg[0m
-[ 23%] [34m[1mGenerating Javascript code from hrwros_gazebo/Model.msg[0m
-[ 25%] [34m[1mGenerating Lisp code from hrwros_gazebo/Model.msg[0m
-[ 26%] [34m[1mGenerating Python from MSG hrwros_gazebo/Proximity[0m
-[ 28%] [34m[1mGenerating Javascript code from hrwros_gazebo/ConveyorBeltControl.srv[0m
-[ 29%] [34m[1mGenerating Lisp code from hrwros_gazebo/ConveyorBeltControl.srv[0m
-[ 31%] [34m[1mGenerating Javascript code from hrwros_gazebo/VacuumGripperControl.srv[0m
+[ 10%] [34m[1mGenerating Javascript code from hrwros_gazebo/Proximity.msg[0m
+[ 12%] [34m[1mGenerating Lisp code from hrwros_gazebo/Proximity.msg[0m
+[ 14%] [34m[1mGenerating Python from MSG hrwros_gazebo/VacuumGripperState[0m
+[ 15%] [34m[1mGenerating Javascript code from hrwros_gazebo/LogicalCameraImage.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from hrwros_gazebo/LogicalCameraImage.msg[0m
+[ 18%] [34m[1mGenerating Javascript code from hrwros_gazebo/Model.msg[0m
+[ 20%] [34m[1mGenerating Lisp code from hrwros_gazebo/Model.msg[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/ProximityRayPlugin.dir/src/plugins/ProximityRayPlugin.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/SideContactPlugin.dir/src/plugins/SideContactPlugin.cc.o[0m
+[ 25%] [34m[1mGenerating Python from MSG hrwros_gazebo/Proximity[0m
+[ 26%] [34m[1mGenerating Javascript code from hrwros_gazebo/ConveyorBeltControl.srv[0m
+[ 28%] [34m[1mGenerating Lisp code from hrwros_gazebo/ConveyorBeltControl.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from hrwros_gazebo/VacuumGripperControl.srv[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/VacuumGripperPlugin.dir/src/plugins/VacuumGripperPlugin.cc.o[0m
 [ 32%] [34m[1mGenerating Lisp code from hrwros_gazebo/VacuumGripperControl.srv[0m
 [ 34%] [34m[1mGenerating Python from MSG hrwros_gazebo/LogicalCameraImage[0m
 [ 34%] Built target hrwros_gazebo_generate_messages_nodejs
-[ 34%] Built target hrwros_gazebo_generate_messages_lisp
 [35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_eus[0m
-[35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_cpp[0m
+[ 34%] Built target hrwros_gazebo_generate_messages_lisp
 [ 35%] [34m[1mGenerating EusLisp code from hrwros_gazebo/ConveyorBeltState.msg[0m
-[ 37%] [34m[1mGenerating C++ code from hrwros_gazebo/ConveyorBeltState.msg[0m
-[ 39%] [34m[1mGenerating EusLisp code from hrwros_gazebo/VacuumGripperState.msg[0m
-[ 40%] [34m[1mGenerating Python from MSG hrwros_gazebo/Model[0m
-[ 42%] [34m[1mGenerating EusLisp code from hrwros_gazebo/Proximity.msg[0m
-[ 43%] [34m[1mGenerating C++ code from hrwros_gazebo/VacuumGripperState.msg[0m
+[ 37%] [34m[1mGenerating EusLisp code from hrwros_gazebo/VacuumGripperState.msg[0m
+[ 39%] [34m[1mGenerating Python from MSG hrwros_gazebo/Model[0m
+[ 40%] [34m[1mGenerating EusLisp code from hrwros_gazebo/Proximity.msg[0m
+[35m[1mScanning dependencies of target hrwros_gazebo_generate_messages_cpp[0m
+[ 42%] [34m[1mGenerating C++ code from hrwros_gazebo/ConveyorBeltState.msg[0m
+[ 43%] [34m[1mGenerating EusLisp code from hrwros_gazebo/LogicalCameraImage.msg[0m
 [ 45%] [34m[1mGenerating Python code from SRV hrwros_gazebo/ConveyorBeltControl[0m
-[ 46%] [34m[1mGenerating EusLisp code from hrwros_gazebo/LogicalCameraImage.msg[0m
-[ 48%] [34m[1mGenerating EusLisp code from hrwros_gazebo/Model.msg[0m
+[ 46%] [34m[1mGenerating EusLisp code from hrwros_gazebo/Model.msg[0m
+[ 48%] [34m[1mGenerating C++ code from hrwros_gazebo/VacuumGripperState.msg[0m
 [ 50%] [34m[1mGenerating Python code from SRV hrwros_gazebo/VacuumGripperControl[0m
-[ 51%] [34m[1mGenerating C++ code from hrwros_gazebo/Proximity.msg[0m
-[ 53%] [34m[1mGenerating EusLisp code from hrwros_gazebo/ConveyorBeltControl.srv[0m
-[ 54%] [34m[1mGenerating Python msg __init__.py for hrwros_gazebo[0m
-[ 56%] [34m[1mGenerating EusLisp code from hrwros_gazebo/VacuumGripperControl.srv[0m
-[ 57%] [34m[1mGenerating C++ code from hrwros_gazebo/LogicalCameraImage.msg[0m
-[ 59%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/liburdf_creator.so[0m
-[ 60%] [34m[1mGenerating EusLisp manifest code for hrwros_gazebo[0m
-[ 62%] [34m[1mGenerating Python srv __init__.py for hrwros_gazebo[0m
-[ 64%] [34m[1mGenerating C++ code from hrwros_gazebo/Model.msg[0m
-[ 64%] Built target hrwros_gazebo_generate_messages_py
-[ 65%] [34m[1mGenerating C++ code from hrwros_gazebo/ConveyorBeltControl.srv[0m
-[ 67%] [34m[1mGenerating C++ code from hrwros_gazebo/VacuumGripperControl.srv[0m
+[ 51%] [34m[1mGenerating EusLisp code from hrwros_gazebo/ConveyorBeltControl.srv[0m
+[ 53%] [34m[1mGenerating EusLisp code from hrwros_gazebo/VacuumGripperControl.srv[0m
+[ 54%] [34m[1mGenerating C++ code from hrwros_gazebo/Proximity.msg[0m
+[ 56%] [34m[1mGenerating Python msg __init__.py for hrwros_gazebo[0m
+[ 57%] [34m[1mGenerating EusLisp manifest code for hrwros_gazebo[0m
+[ 59%] [34m[1mGenerating Python srv __init__.py for hrwros_gazebo[0m
+[ 60%] [34m[1mGenerating C++ code from hrwros_gazebo/LogicalCameraImage.msg[0m
+[ 60%] Built target hrwros_gazebo_generate_messages_py
+[ 62%] [34m[1mGenerating C++ code from hrwros_gazebo/Model.msg[0m
+[ 64%] [34m[1mGenerating C++ code from hrwros_gazebo/ConveyorBeltControl.srv[0m
+[ 65%] [34m[1mGenerating C++ code from hrwros_gazebo/VacuumGripperControl.srv[0m
+[ 67%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/liburdf_creator.so[0m
 [ 67%] Built target hrwros_gazebo_generate_messages_cpp
+[ 67%] Built target hrwros_gazebo_generate_messages_eus
+[35m[1mScanning dependencies of target hrwros_gazebo_generate_messages[0m
+[35m[1mScanning dependencies of target ROSLogicalCameraPlugin[0m
+[ 67%] Built target hrwros_gazebo_generate_messages
 [ 67%] Built target urdf_creator
 [35m[1mScanning dependencies of target conveyor_spawner[0m
 [35m[1mScanning dependencies of target urdf_creator_test_node[0m
 [ 68%] [32mBuilding CXX object CMakeFiles/conveyor_spawner.dir/src/conveyor_spawner.cpp.o[0m
 [ 70%] [32mBuilding CXX object CMakeFiles/urdf_creator_test_node.dir/src/urdf_creator_test.cpp.o[0m
-[ 70%] Built target hrwros_gazebo_generate_messages_eus
-[35m[1mScanning dependencies of target hrwros_gazebo_generate_messages[0m
-[35m[1mScanning dependencies of target ROSLogicalCameraPlugin[0m
-[ 70%] Built target hrwros_gazebo_generate_messages
 [ 71%] [32mBuilding CXX object CMakeFiles/ROSLogicalCameraPlugin.dir/src/plugins/ROSLogicalCameraPlugin.cc.o[0m
 [ 73%] [32m[1mLinking CXX executable /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/hrwros_gazebo/urdf_creator_test_node[0m
+[ 73%] Built target urdf_creator_test_node
 [ 75%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libconveyor_spawner.so[0m
-[ 75%] Built target urdf_creator_test_node
 [ 75%] Built target conveyor_spawner
 [35m[1mScanning dependencies of target conveyor_spawner_node[0m
 [ 76%] [32mBuilding CXX object CMakeFiles/conveyor_spawner_node.dir/src/conveyor_spawner_node.cpp.o[0m
-[ 78%] [32m[1mLinking CXX executable /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/hrwros_gazebo/conveyor_spawner_node[0m
-[ 78%] Built target conveyor_spawner_node
-[ 79%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libSideContactPlugin.so[0m
-[ 81%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libProximityRayPlugin.so[0m
-[ 81%] Built target SideContactPlugin
+[ 78%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libProximityRayPlugin.so[0m
+[ 79%] [32m[1mLinking CXX executable /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/hrwros_gazebo/conveyor_spawner_node[0m
+[ 79%] Built target ProximityRayPlugin
+[35m[1mScanning dependencies of target ROSProximityRayPlugin[0m
+[ 79%] Built target conveyor_spawner_node
+[ 81%] [32mBuilding CXX object CMakeFiles/ROSProximityRayPlugin.dir/src/plugins/ROSProximityRayPlugin.cc.o[0m
+[ 82%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libSideContactPlugin.so[0m
+[ 84%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libVacuumGripperPlugin.so[0m
+[ 84%] Built target SideContactPlugin
 [35m[1mScanning dependencies of target ConveyorBeltPlugin[0m
 [35m[1mScanning dependencies of target ObjectDisposalPlugin[0m
-[ 81%] Built target ProximityRayPlugin
-[35m[1mScanning dependencies of target ROSProximityRayPlugin[0m
-[ 82%] [32mBuilding CXX object CMakeFiles/ConveyorBeltPlugin.dir/src/plugins/ConveyorBeltPlugin.cc.o[0m
-[ 84%] [32mBuilding CXX object CMakeFiles/ObjectDisposalPlugin.dir/src/plugins/ObjectDisposalPlugin.cc.o[0m
-[ 85%] [32mBuilding CXX object CMakeFiles/ROSProximityRayPlugin.dir/src/plugins/ROSProximityRayPlugin.cc.o[0m
-[ 87%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libVacuumGripperPlugin.so[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/ConveyorBeltPlugin.dir/src/plugins/ConveyorBeltPlugin.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/ObjectDisposalPlugin.dir/src/plugins/ObjectDisposalPlugin.cc.o[0m
 [ 87%] Built target VacuumGripperPlugin
 [35m[1mScanning dependencies of target ROSVacuumGripperPlugin[0m
 [ 89%] [32mBuilding CXX object CMakeFiles/ROSVacuumGripperPlugin.dir/src/plugins/ROSVacuumGripperPlugin.cc.o[0m
 [ 90%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libROSLogicalCameraPlugin.so[0m
 [ 90%] Built target ROSLogicalCameraPlugin
 [ 92%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libROSVacuumGripperPlugin.so[0m
-[ 93%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libObjectDisposalPlugin.so[0m
-[ 93%] Built target ROSVacuumGripperPlugin
+[ 92%] Built target ROSVacuumGripperPlugin
+[ 93%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libROSProximityRayPlugin.so[0m
+[ 93%] Built target ROSProximityRayPlugin
 [ 95%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libConveyorBeltPlugin.so[0m
-[ 95%] Built target ObjectDisposalPlugin
 [ 95%] Built target ConveyorBeltPlugin
 [35m[1mScanning dependencies of target ROSConveyorBeltPlugin[0m
-[ 96%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libROSProximityRayPlugin.so[0m
-[ 98%] [32mBuilding CXX object CMakeFiles/ROSConveyorBeltPlugin.dir/src/plugins/ROSConveyorBeltPlugin.cc.o[0m
-[ 98%] Built target ROSProximityRayPlugin
+[ 96%] [32mBuilding CXX object CMakeFiles/ROSConveyorBeltPlugin.dir/src/plugins/ROSConveyorBeltPlugin.cc.o[0m
+[ 98%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libObjectDisposalPlugin.so[0m
+[ 98%] Built target ObjectDisposalPlugin
 [100%] [32m[1mLinking CXX shared library /home/lxu9/hrwros_ws/devel/.private/hrwros_gazebo/lib/libROSConveyorBeltPlugin.so[0m
 [100%] Built target ROSConveyorBeltPlugin

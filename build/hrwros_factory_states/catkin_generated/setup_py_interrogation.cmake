@@ -1,0 +1,6 @@
+set(hrwros_factory_states_SETUP_PY_VERSION "1.0.0")
+set(hrwros_factory_states_SETUP_PY_SCRIPTS "")
+set(hrwros_factory_states_SETUP_PY_PACKAGES "hrwros_factory_states")
+set(hrwros_factory_states_SETUP_PY_PACKAGE_DIRS "src/hrwros_factory_states")
+set(hrwros_factory_states_SETUP_PY_MODULES "")
+set(hrwros_factory_states_SETUP_PY_MODULE_DIRS "")

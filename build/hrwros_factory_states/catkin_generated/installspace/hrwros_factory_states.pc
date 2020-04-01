@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/install
+
+Name: hrwros_factory_states
+Description: Description of hrwros_factory_states
+Version: 1.0.0
+Cflags: -I/home/lxu9/hrwros_ws/install/include
+Libs: -L/home/lxu9/hrwros_ws/install/lib -lhrwros_factory_states
+Requires: 

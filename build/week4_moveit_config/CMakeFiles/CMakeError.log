@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_90c27/fast"
-/usr/bin/make -f CMakeFiles/cmTC_90c27.dir/build.make CMakeFiles/cmTC_90c27.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_003ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_003ae.dir/build.make CMakeFiles/cmTC_003ae.dir/build
 make[1]: Entering directory '/home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_90c27.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_90c27.dir/CheckSymbolExists.c.o   -c /home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_90c27
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c27.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_90c27.dir/CheckSymbolExists.c.o  -o cmTC_90c27 
-CMakeFiles/cmTC_90c27.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_003ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_003ae.dir/CheckSymbolExists.c.o   -c /home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_003ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_003ae.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_003ae.dir/CheckSymbolExists.c.o  -o cmTC_003ae 
+CMakeFiles/cmTC_003ae.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_90c27.dir/build.make:97: recipe for target 'cmTC_90c27' failed
-make[1]: *** [cmTC_90c27] Error 1
+CMakeFiles/cmTC_003ae.dir/build.make:97: recipe for target 'cmTC_003ae' failed
+make[1]: *** [cmTC_003ae] Error 1
 make[1]: Leaving directory '/home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_90c27/fast' failed
-make: *** [cmTC_90c27/fast] Error 2
+Makefile:126: recipe for target 'cmTC_003ae/fast' failed
+make: *** [cmTC_003ae/fast] Error 2
 
 File /home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2437d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2437d.dir/build.make CMakeFiles/cmTC_2437d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_aa907/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa907.dir/build.make CMakeFiles/cmTC_aa907.dir/build
 make[1]: Entering directory '/home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2437d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2437d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2437d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2437d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2437d.dir/CheckFunctionExists.c.o  -o cmTC_2437d -lpthreads 
+Building C object CMakeFiles/cmTC_aa907.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aa907.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa907
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa907.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aa907.dir/CheckFunctionExists.c.o  -o cmTC_aa907 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2437d.dir/build.make:97: recipe for target 'cmTC_2437d' failed
-make[1]: *** [cmTC_2437d] Error 1
+CMakeFiles/cmTC_aa907.dir/build.make:97: recipe for target 'cmTC_aa907' failed
+make[1]: *** [cmTC_aa907] Error 1
 make[1]: Leaving directory '/home/lxu9/hrwros_ws/build/week4_moveit_config/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2437d/fast' failed
-make: *** [cmTC_2437d/fast] Error 2
+Makefile:126: recipe for target 'cmTC_aa907/fast' failed
+make: *** [cmTC_aa907/fast] Error 2
 
 

@@ -1,0 +1,4 @@
+Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/behavior_pick_part_from_conveyor/__init__.py
+Symlinking /home/lxu9/hrwros_ws/devel/lib/pkgconfig/behavior_pick_part_from_conveyor.pc
+Symlinking /home/lxu9/hrwros_ws/devel/share/behavior_pick_part_from_conveyor/cmake/behavior_pick_part_from_conveyorConfig.cmake
+Symlinking /home/lxu9/hrwros_ws/devel/share/behavior_pick_part_from_conveyor/cmake/behavior_pick_part_from_conveyorConfig-version.cmake

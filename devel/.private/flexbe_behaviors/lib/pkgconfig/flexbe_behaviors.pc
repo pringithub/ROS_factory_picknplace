@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/flexbe_behaviors
+
+Name: flexbe_behaviors
+Description: Description of flexbe_behaviors
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/flexbe_behaviors/lib -lflexbe_behaviors
+Requires: 

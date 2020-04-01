@@ -1,0 +1,6 @@
+set(behavior_final_project_SETUP_PY_VERSION "1.0.0")
+set(behavior_final_project_SETUP_PY_SCRIPTS "")
+set(behavior_final_project_SETUP_PY_PACKAGES "behavior_final_project")
+set(behavior_final_project_SETUP_PY_PACKAGE_DIRS "src/behavior_final_project")
+set(behavior_final_project_SETUP_PY_MODULES "")
+set(behavior_final_project_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/behavior_pick_part_from_conveyor
+
+Name: behavior_pick_part_from_conveyor
+Description: Description of behavior_pick_part_from_conveyor
+Version: 1.0.0
+Cflags: -I/home/lxu9/hrwros_ws/src/hrwros_factory_behaviors/behaviors/behavior_pick_part_from_conveyor/src
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/behavior_pick_part_from_conveyor/lib -lbehavior_pick_part_from_conveyor
+Requires: 

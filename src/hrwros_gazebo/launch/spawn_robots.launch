@@ -23,7 +23,7 @@
 
     <!-- Spawn robot1, its state publisher and controller. -->
     <node name="robot1_spawner" pkg="gazebo_ros" type="spawn_model"
-      args="-x 0.5 -y 1.8 -z 0.95 -urdf -model robot1 -param robot1_description -J robot1_shoulder_lift_joint -0.48 -J robot1_elbow_joint 0.38" respawn="false" output="screen">
+      args="-x 0.5 -y 1.8 -z 0.95 -urdf -model robot1 -param robot1_description -J robot1_elbow_joint 1.57 -J robot1_shoulder_lift_joint -1.57 -J robot1_shoulder_pan_joint 1.24 -J robot1_wrist_1_joint -1.57 -J robot1_wrist_2_joint -1.57" respawn="false" output="screen">
     </node>
 
     <node name="robot1_controller_spawner" pkg="controller_manager" type="spawner"
@@ -44,7 +44,7 @@
 
     <!-- Spawn robot2, its state publisher and controller. -->
     <node name="robot2_spawner" pkg="gazebo_ros" type="spawn_model"
-      args="-x -7.8 -y -1.5 -z 0.7 -Y 1.57  -urdf -model robot2 -param robot2_description  -J robot2_shoulder_lift_joint -0.48 -J robot2_elbow_joint 0.38" respawn="false" output="screen">
+      args="-x -7.8 -y -1.5 -z 0.7 -Y 1.57  -urdf -model robot2 -param robot2_description -J robot2_elbow_joint 1.57 -J robot2_shoulder_lift_joint -1.57 -J robot2_shoulder_pan_joint 1.24 -J robot2_wrist_1_joint -1.57 -J robot2_wrist_2_joint -1.57" respawn="false" output="screen">
     </node>
 
     <node name="robot2_controller_spawner" pkg="controller_manager" type="spawner"

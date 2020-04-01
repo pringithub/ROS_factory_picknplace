@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/behavior_final_project
+
+Name: behavior_final_project
+Description: Description of behavior_final_project
+Version: 1.0.0
+Cflags: -I/home/lxu9/hrwros_ws/src/hrwros_factory_behaviors/behaviors/behavior_final_project/src
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/behavior_final_project/lib -lbehavior_final_project
+Requires: 

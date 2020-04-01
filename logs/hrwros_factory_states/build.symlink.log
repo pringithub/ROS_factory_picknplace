@@ -1,0 +1,4 @@
+Symlinking /home/lxu9/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_factory_states/__init__.py
+Symlinking /home/lxu9/hrwros_ws/devel/lib/pkgconfig/hrwros_factory_states.pc
+Symlinking /home/lxu9/hrwros_ws/devel/share/hrwros_factory_states/cmake/hrwros_factory_statesConfig-version.cmake
+Symlinking /home/lxu9/hrwros_ws/devel/share/hrwros_factory_states/cmake/hrwros_factory_statesConfig.cmake

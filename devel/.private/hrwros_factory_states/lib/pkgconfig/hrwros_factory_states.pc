@@ -1,0 +1,8 @@
+prefix=/home/lxu9/hrwros_ws/devel/.private/hrwros_factory_states
+
+Name: hrwros_factory_states
+Description: Description of hrwros_factory_states
+Version: 1.0.0
+Cflags: -I/home/lxu9/hrwros_ws/src/hrwros_factory_states/src
+Libs: -L/home/lxu9/hrwros_ws/devel/.private/hrwros_factory_states/lib -lhrwros_factory_states
+Requires: 
