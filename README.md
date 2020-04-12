@@ -10,17 +10,17 @@ Rinse and Repeat!
 
 ## Media
 
-Picking up box from assembly line
+### Picking up box from assembly line
 ![](./media/wk6p1.png)
 
-Before picking up box from Turtlebot
+### Before picking up box from Turtlebot
 ![](./media/wk5p3.png)
 
-After placing box in plate
+### After placing box in plate
 ![](./media/thunderous_dunk.png)
 
-Turtlebot's amcl-based path planning and object avoidance
+### Turtlebot's amcl-based path planning and object avoidance
 ![](./media/wk3p3p2.png)
 
-Partially-complete FlexBE state machine
+### Partially-complete FlexBE state machine
 ![](./media/wk6p2p2.png)
